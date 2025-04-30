@@ -22,4 +22,3 @@ sys.exit()
 git add .
 git commit -m "Completed basic SnackChase gameplay mechanics"
 git push
-# Added snack collision detection
