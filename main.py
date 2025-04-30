@@ -80,7 +80,7 @@ while running:
     # Check collision with enemy
     distance_enemy = ((player_x - enemy_x) ** 2 + (player_y - enemy_y) ** 2) ** 0.5
     if distance_enemy < player_radius + enemy_radius:
-        running = False  # Game over
+        running = False  
 
     # Drawing
     screen.fill((0, 0, 0))  # Black background
