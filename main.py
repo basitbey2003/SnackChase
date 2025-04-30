@@ -95,7 +95,7 @@ while running:
     # Draw timer
     elapsed_time = int(time.time() - start_time)
     time_text = font.render(f"Time: {elapsed_time}s", True, (255, 255, 255))
-    screen.blit(time_text, (10, 50))
+    screen.blit(time_text, (10, 50)
 
     # Update screen
     pygame.display.flip()
