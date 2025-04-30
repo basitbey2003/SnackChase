@@ -32,7 +32,7 @@ enemy_color = (0, 0, 255)  # Blue
 enemy_radius = 20
 enemy_x = random.randint(50, WIDTH - 50)
 enemy_y = random.randint(50, HEIGHT - 50)
-enemy_speed = 2
+enemy_speed = 1
 
 # Score and timer
 score = 0
