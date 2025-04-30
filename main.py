@@ -99,7 +99,7 @@ while running:
 
     # Update screen
     pygame.display.flip()
-    pygame.time.Clock().tick(60)  # Limit to 60 FPS
+    pygame.time.Clock().tick(60)  # Limit to 60 Frames per second
 
 # Quit game
 pygame.quit()
