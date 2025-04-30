@@ -22,3 +22,7 @@ sys.exit()
 git add .
 git commit -m "Completed basic SnackChase gameplay mechanics"
 git push
+git add .
+git commit -m "Added player character (green circle) with movement"
+git push
+
