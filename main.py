@@ -56,7 +56,7 @@ while running:
     if keys[pygame.K_DOWN]:
         player_y += player_speed
 
-    # Keep player on screen
+    # Keeping player on screen
     player_x = max(player_radius, min(WIDTH - player_radius, player_x))
     player_y = max(player_radius, min(HEIGHT - player_radius, player_y))
 
